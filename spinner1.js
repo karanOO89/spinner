@@ -39,4 +39,10 @@ setTimeout(() => {
   setTimeout(() => {
     process.stdout.write('\r|   ');
   }, 1700);
+
+  setTimeout(() => {
+  // print the char here
+  process.stdout.write("\n");
+}, 2000);
+
   
